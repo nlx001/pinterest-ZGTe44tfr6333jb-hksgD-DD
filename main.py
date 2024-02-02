@@ -5,7 +5,7 @@ pinterest = Pinterest(email='theredditwonda@gmail.com',
                       password='Baum96?!',
                       username='coaxonstudios',
                       cred_root='cred_root')
-#pinterest.login()
+pinterest.login()
 
 
 
