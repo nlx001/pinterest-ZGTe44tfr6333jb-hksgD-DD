@@ -5,9 +5,9 @@ import mimetypes
 import requests.cookies
 from requests_toolbelt import MultipartEncoder
 from bs4 import BeautifulSoup
-from py3pin.BookmarkManager import BookmarkManager
-from py3pin.Registry import Registry
-from py3pin.RequestBuilder import RequestBuilder
+from BookmarkManager import BookmarkManager
+from Registry import Registry
+from RequestBuilder import RequestBuilder
 from requests.structures import CaseInsensitiveDict
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
