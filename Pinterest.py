@@ -186,13 +186,8 @@ class Pinterest:
         if headless:
             chrome_options.add_argument("--headless")
 
-        if proxy is not None:
-            http_proxy = Proxy()
-            http_proxy.proxy_type = ProxyType.MANUAL
-            http_proxy.http_proxy = proxy
-            http_proxy.socks_proxy = proxy
-            http_proxy.ssl_proxy = proxy
-            http_proxy.add_to_capabilities(chrome_options)
+        proxy_server_url = proxy
+        chrome_options.add_argument(f'--proxy-server={proxy_server_url}')
 
         driver = webdriver.Firefox(
             options=chrome_options
