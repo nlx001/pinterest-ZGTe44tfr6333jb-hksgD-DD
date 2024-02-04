@@ -6,7 +6,8 @@ import random
 pinterest = Pinterest(email='basicdime@outlook.com',
                       password='rVz5mkZ4KpM6DXx',
                       username='basicdime',
-                      cred_root='/home/nilslux/pinterest/pinterest-ZGTe44tfr6333jb-hksgD-DD/cred_root') #proxies={"http": "45.85.204.3:59101"}
+                      cred_root='/home/nilslux/pinterest/pinterest-ZGTe44tfr6333jb-hksgD-DD/cred_root',
+                      proxies={"http": "103.52.226.184:59101"}) #proxies={"http": "45.85.204.3:59101"}
 
 with open("/home/nilslux/pinterest/pinterest-ZGTe44tfr6333jb-hksgD-DD/all_files.pkl", "rb") as f:
     fil = pickle.load(f)
