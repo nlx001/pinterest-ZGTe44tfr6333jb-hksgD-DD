@@ -13,7 +13,7 @@ with open("/home/nilslux/pinterest/pinterest-ZGTe44tfr6333jb-hksgD-DD/all_prints
     fil = pickle.load(f)
 current_pin = random.choice(fil)
 
-boards = ["1020135821783407241", "1020135821783407242"]
+boards = ["932385997793892268"]
 board_id = random.choice(boards)
 
 titles = ["Elegant Painting | Printable Vintage Art | Home Decor", "Elegant Art Prints for your Room | Home Decor"]
