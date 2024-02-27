@@ -7,7 +7,7 @@ pinterest = Pinterest(email='atticoarts@outlook.com',
                       password='hdb56rPr8yBLZqx',
                       username='atticoarts',
                       cred_root='/home/nilslux/pinterest/pinterest-ZGTe44tfr6333jb-hksgD-DD/cred_root',
-                      proxies={"http": "103.52.226.184:59101"}) #proxies={"http": "45.85.204.3:59101"}
+                      proxies={"http": "168.158.231.170:59101"}) #proxies={"http": "45.85.204.3:59101"}
 
 with open("/home/nilslux/pinterest/pinterest-ZGTe44tfr6333jb-hksgD-DD/all_prints.pkl", "rb") as f:
     fil = pickle.load(f)
